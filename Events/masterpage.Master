@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="Event.masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 509px;
+        }
+        .auto-style2 {
+            height: 370px;
+        }
+        .auto-style3 {
+            height: 44px;
+            color: #33CCFF;
+            margin-left: 200px;
+        }
+        .auto-style4 {
+            height: 62px;
+            color: #FFFFFF;
+        }
+        .auto-style5 {
+            width: 100%;
+            height: 95%;
+        }
+        .auto-style7 {
+            text-decoration: underline;
+        }
+        .auto-style8 {
+            width: 291px;
+            text-align: center;
+            height: 434px;
+        }
+        .auto-style10 {
+            font-weight: bold;
+            font-size: large;
+            color: #00CCFF;
+        }
+        .auto-style12 {
+            color: #FFFF99;
+        }
+        .auto-style13 {
+            color: #CC99FF;
+        }
+        .auto-style15 {
+            font-weight: bold;
+            font-size: large;
+            color: #FFFF99;
+        }
+        .auto-style16 {
+            height: 434px;
+        }
+        .auto-style17 {
+            color: #FFCCFF;
+        }
+        .auto-style18 {
+            color: #66FF99;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        .auto-style19 {
+            text-decoration: none;
+        }
+        .auto-style20 {
+            color: #FFFF66;
+        }
+        .auto-style21 {
+            color: #FF99FF;
+        }
+        .auto-style22 {
+            color: #99CCFF;
+        }
+        .auto-style23 {
+            color: #66FF99;
+        }
+        .auto-style24 {
+            text-decoration: underline;
+            color: #66FF66;
+        }
+        .auto-style25 {
+            color: #FFCC66;
+        }
+        .auto-style26 {
+            color: #33CCFF;
+        }
+        .auto-style28 {
+            color: #CC66FF;
+        }
+        .auto-style29 {
+            color: #CC6699;
+        }
+        .auto-style30 {
+            color: #FF66FF;
+        }
+        .auto-style31 {
+            color: #66FF66;
+        }
+        .auto-style32 {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style3" style="background-position: right top; background-color: #800000; background-image: url('/Resources/bg.jpeg');"><em><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="login.aspx"><span class="auto-style26">Home </span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style29">&nbsp;&nbsp; </span><span class="auto-style30">@College Technical Fest&nbsp;&nbsp; </span>
+                        <span class="auto-style29">&nbsp; </span><span class="auto-style17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Register.aspx"><span class="auto-style31">Login</span></a></span><span class="auto-style23"> </span><span class="auto-style17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></em></td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <table class="auto-style5">
+                            <tr>
+                                <td class="auto-style8" style="background-position: center bottom; vertical-align: top; background-image: url('/Resources/mimi.jpeg'); background-repeat: no-repeat; color: #FFFFFF; font-style: italic; font-size: medium; font-family: 'Yu Gothic Medium'; font-weight: bold; text-decoration: overline; text-transform: none;">
+                                    <br />
+                                    <strong><span class="auto-style23"><span class="auto-style12"><a href="Register.aspx"><span class="auto-style28">Register</span></a></span></span></strong><br />
+                                    <br />
+                                    <span class="auto-style7"><span class="auto-style15">Coding Events</span><span class="auto-style10"> </span></span>
+                                    <br />
+                                    <br />
+                                    <a class="auto-style19" href="hackathon.aspx"><span class="auto-style18">Hackathon</span></a><strong><br />
+                                    <span class="auto-style13"><a class="auto-style19" href="codeforcode.aspx"><span class="auto-style22">Code-for-Code</span></a></span><br />
+                                    <span class="auto-style12"><a class="auto-style19" href="hackforgood.aspx"><span class="auto-style21">Hack-for-Code</span></a><br />
+                                    </span><span class="auto-style17"><a class="auto-style19" href="geeksforgeeks.aspx"><span class="auto-style20">Geeks for Geeks</span></a></span><br />
+                                    <br />
+                                    <span class="auto-style24">T<span class="auto-style32">ime schedule for the events</span><br />
+                                    <asp:ContentPlaceHolder ID="cphtime" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                    </span>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </strong>
+                                    <br />
+                                </td>
+                                <td class="auto-style16" style="background-image: url('/Resources/bg.jpeg'); vertical-align: top; color: #FFFFFF;">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        <p id="cphevent">
+                                            Requires some editing. And oh this is master page!!</p>
+                                        <p>
+                                            &nbsp;</p>
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4" style="background-image: url('/Resources/bg.jpeg'); background-position: left; "><span class="auto-style25">@Copyright Arya&nbsp; 2021&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style21">&nbsp; Assignment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="auto-style26">&nbsp;Contact US:- Linkedin<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>
